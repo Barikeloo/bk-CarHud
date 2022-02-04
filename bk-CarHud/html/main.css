@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+body {
+    font-family: 'Rubik';
+}
+
+[class="speedo"] {
+    position: absolute;
+    bottom: 5%;
+    left: 0vw;
+    height: 5vw;
+    width: 10vw;
+    background-color: rgb(122, 122, 122);
+    box-shadow: 0 0 .5vw rgb(0, 0, 0);
+    border-radius: .5vw;
+    bottom: 5%;
+    left: 15%;
+    transform: scale(.7);
+}
+[class="kilometer"] {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 .25vw rgb(255, 255, 255);
+    transform: translateY(100%);
+    font-size: 1.33vw;
+    transition: .5s;
+}
+
+[class="progressBarVel"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: .85vw;
+    background-color: rgb(255, 255, 255);
+    width: 5vw;
+    height: .2vw;
+}
+
+[class="progressVel"] {
+    transition: .5s;
+    height: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+    transition: .5s;
+}
+i {
+    position: absolute;
+    color: white;
+}
+[id="gasolina-icon"] {
+    color: #ccc;
+    right: 1.2vw;
+    bottom: .5vw;
+}
+[class="progressBarFuel"] {
+    position: absolute;
+    background-color: #6e6e6e;
+    top: 79%;
+    right: .7vw;
+    transform: translateY(-50%);
+    width: .1vw;
+    height: 1.1vw;
+}
+
+[class="progressFuel"] {
+    position: absolute;
+    bottom: 0%;
+    max-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    transition: .5s;
+}
+[id="motor-icon"] {
+    color: #ccc;
+    left: 1vw;
+    bottom: .5vw;
+}
+
+[class="progressBarMotor"] {
+    position: absolute;
+    background-color: #6e6e6e;
+    top: 79%;
+    left: .5vw;
+    transform: translateY(-50%);
+    width: .1vw;
+    height: 1.1vw;
+}
+
+[class="progressMotor"] {
+    position: absolute;
+    bottom: 0%;
+    max-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    transition: .5s;
+}
+[class="marcha-1"] {
+    
+    position: absolute;
+    background-color: #ccc;
+    width: .2vw;
+    height: .9vw;
+    left: 3.9vw;
+    transform: translateY(-110%);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+}
+[class="marcha-2"] {
+    
+    position: absolute;
+    background-color: #ccc;
+    width: .2vw;
+    height: .9vw;
+    left: 4.3vw;
+    transform: translateY(-110%);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+}
+[class="marcha-3"] {
+    
+    position: absolute;
+    background-color: #ccc;
+    width: .2vw;
+    height: .9vw;
+    left: 4.7vw;
+    transform: translateY(-110%);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+}
+[class="marcha-4"] {
+    
+    position: absolute;
+    background-color: #ccc;
+    width: .2vw;
+    height: .9vw;
+    left: 5.1vw;
+    transform: translateY(-110%);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+}
+[class="marcha-5"] {
+    
+    position: absolute;
+    background-color: #ccc;
+    width: .2vw;
+    height: .9vw;
+    left: 5.5vw;
+    transform: translateY(-110%);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+}
+[class="marcha-6"] {
+    
+    position: absolute;
+    background-color: #ccc;
+    width: .2vw;
+    height: .9vw;
+    left: 5.9vw;
+    transform: translateY(-110%);
+    box-shadow: 0 0 .25vw rgb(255, 255, 255);
+}
+[class="notificacion"] {
+    position: absolute;
+    font-size: .7vw;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #ccc;
+    bottom: 4vw;
+    left: 17vw;
+    padding: .2vw;
+    border-radius: .3vw;
+    box-shadow: 0 0 .1vw rgb(0, 0, 0);
+    text-shadow: 0 0 .05vw rgb(255, 255, 255);
+    z-index: -1;
+}
+[class="marcha-atras"] {
+    display: none;
+    position: absolute;
+    font-size:1vw;
+    color: #ccc;
+    bottom: 3.5vw;
+    left: 47%;
+    text-shadow: 0 0 .2vw rgb(255, 255, 255);
+}
