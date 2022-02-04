@@ -13,7 +13,7 @@ body {
     left: 0vw;
     height: 5vw;
     width: 10vw;
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(0, 0, 0);
     box-shadow: 0 0 .5vw rgb(0, 0, 0);
     border-radius: .5vw;
     bottom: 5%;
@@ -58,7 +58,7 @@ i {
 }
 [class="progressBarFuel"] {
     position: absolute;
-    background-color: #6e6e6e;
+    background-color: #474747;
     top: 79%;
     right: .7vw;
     transform: translateY(-50%);
@@ -83,7 +83,7 @@ i {
 
 [class="progressBarMotor"] {
     position: absolute;
-    background-color: #6e6e6e;
+    background-color: #474747;
     top: 79%;
     left: .5vw;
     transform: translateY(-50%);
@@ -159,19 +159,6 @@ i {
     left: 5.9vw;
     transform: translateY(-110%);
     box-shadow: 0 0 .25vw rgb(255, 255, 255);
-}
-[class="notificacion"] {
-    position: absolute;
-    font-size: .7vw;
-    background-color: rgba(0, 0, 0, 0.726);
-    color: #ccc;
-    bottom: 4vw;
-    left: 17vw;
-    padding: .2vw;
-    border-radius: .3vw;
-    box-shadow: 0 0 .1vw rgb(0, 0, 0);
-    text-shadow: 0 0 .05vw rgb(255, 255, 255);
-    z-index: -1;
 }
 [class="marcha-atras"] {
     display: none;
